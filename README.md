@@ -1,4 +1,4 @@
-# AI SQL Assistant 🤖
+# AI SQL Assistant 
 
 A powerful REST API that converts natural language questions into SQL queries, executes them safely against a database, and returns results. Built with Flask and Groq's LLM for intelligent SQL generation.
 
@@ -231,10 +231,10 @@ Try these natural language queries with the API:
 ## Safety Features
 
 ### SQL Protection
-- ✅ **Blocks Destructive Operations**: DELETE, DROP, UPDATE, INSERT, ALTER, TRUNCATE
-- ✅ **Prevents SQL Injection**: Validates all generated SQL
-- ✅ **Blocks Comment Injection**: Removes `--` and `/* */` comments
-- ✅ **Read-Only Mode**: Only SELECT queries are allowed
+-  **Blocks Destructive Operations**: DELETE, DROP, UPDATE, INSERT, ALTER, TRUNCATE
+-  **Prevents SQL Injection**: Validates all generated SQL
+-  **Blocks Comment Injection**: Removes `--` and `/* */` comments
+-  **Read-Only Mode**: Only SELECT queries are allowed
 
 ## Query Logging
 
@@ -321,10 +321,10 @@ ashok/
 ## Performance Metrics
 
 **Evaluation Criteria Compliance**:
-- ✅ **API Functionality (60%)**: All endpoints working, proper error handling
-- ✅ **SQL Safety Validations (20%)**: Blocks all destructive operations
-- ✅ **API Performance (15%)**: Response times under 3 seconds
-- ✅ **Error Handling & Documentation (5%)**: Comprehensive docs and logging
+-  **API Functionality (60%)**: All endpoints working, proper error handling
+-  **SQL Safety Validations (20%)**: Blocks all destructive operations
+-  **API Performance (15%)**: Response times under 3 seconds
+- **Error Handling & Documentation (5%)**: Comprehensive docs and logging
 
 ## Deployment
 
@@ -352,7 +352,3 @@ For issues or questions:
 2. Review query logs in `query_logs.json`
 3. Check Groq API documentation: https://console.groq.com/docs
 4. Verify database state with SQLite client
-
----
-
-**Built with ❤️ using Flask and Groq**
